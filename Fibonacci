@@ -1,0 +1,9 @@
+n=10
+s1,s2=0,1
+k=[]
+for i in range(0,n):
+    t=s1 + s2
+    s1 = s2
+    k.append(s1)
+    s2=t    
+print(k)
