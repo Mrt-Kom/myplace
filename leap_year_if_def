@@ -1,0 +1,4 @@
+year=int(input("Write a year  :  "))
+def leap_year(x):
+    return print(x,"is a leap year") if x% 4 == 0 and (x% 400 == 0 or x% 100 != 0) else print(x, "not a leap year")
+leap_year(year)
