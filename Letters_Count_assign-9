@@ -1,0 +1,2 @@
+x='hippo runs to us!'
+print(dict((i,list(x).count(i)) for i in set(x)))
